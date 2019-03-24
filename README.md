@@ -5,6 +5,11 @@
 Intro to React Context, comparision with Redux, context testing approaches.
 Created for the purpose of presentation for Warszawskie Dni Informatyki.
 
+## Presentation in:
+
+- 🇵🇱[Polish](presentations/ContextVsReduxPL.pdf)
+- 🇬🇧[English](presentations/ContextVsReduxENG.pdf)
+
 ## Steps
 
 You can checkout the project at different commits to have a step-by-step experience:
