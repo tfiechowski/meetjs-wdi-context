@@ -5,10 +5,13 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 import { PhotosProvider } from "./contexts/PhotosContext/PhotosContext";
+import { ThemeProvider } from "./contexts/ThemeContext/ThemeContext";
 
 ReactDOM.render(
   <PhotosProvider>
-    <App />
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
   </PhotosProvider>,
   document.getElementById("root")
 );
