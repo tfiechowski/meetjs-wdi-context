@@ -3,11 +3,13 @@
 exports[`Components PhotosList Renders the list 1`] = `
 <div>
   <div
+    className="photo-dark"
     key="37"
   >
     Back in Black
   </div>
   <div
+    className="photo-dark"
     key="42"
   >
     Highway to Hell

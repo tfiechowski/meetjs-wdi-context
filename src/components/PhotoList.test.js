@@ -10,7 +10,7 @@ describe("Components", () => {
         { id: 42, title: "Highway to Hell" }
       ];
 
-      const wrapper = shallow(<PhotosList photos={photos} />);
+      const wrapper = shallow(<PhotosList photos={photos} theme="dark" />);
       expect(wrapper).toMatchSnapshot();
     });
   });
