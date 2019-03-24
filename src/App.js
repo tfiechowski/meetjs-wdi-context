@@ -4,13 +4,20 @@ import Row from "./components/Row";
 import PhotoListContextConsumer from "./Consumers/ContextConsumer";
 import PhotoListContextType from "./Consumers/contextType";
 import PhotoListUseContext from "./Consumers/useContext";
+import { ThemeContext } from "./contexts";
 
 class App extends Component {
+  static contextType = ThemeContext;
+
   render() {
+    const { theme, toggle } = this.context;
+    const appClassName = `App App-${theme}`;
+
     return (
-      <div className="App">
+      <div className={appClassName}>
         <header className="App-header">
           <h1>Context demo</h1>
+          <button onClick={toggle}>Toggle theme</button>
 
           <Row>
             <div>
