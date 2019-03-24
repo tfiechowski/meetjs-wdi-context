@@ -31,3 +31,11 @@ div.row {
   display: flex;
   flex-direction: row;
 }
+
+.photo-dark {
+  border: 1px solid white;
+}
+
+.photo-light {
+  border: 1px solid #282c34;
+}
