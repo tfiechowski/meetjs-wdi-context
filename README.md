@@ -1,5 +1,7 @@
 # React Context - introduction
 
+[![Build Status](https://travis-ci.org/tfiechowski/meetjs-wdi-context.svg?branch=master)](https://travis-ci.org/tfiechowski/meetjs-wdi-context)
+
 Intro to React Context, comparision with Redux, context testing approaches.
 Created for the purpose of presentation for Warszawskie Dni Informatyki.
 
