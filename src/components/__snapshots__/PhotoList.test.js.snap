@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components PhotosList Renders the list 1`] = `
+<div>
+  <div
+    key="37"
+  >
+    Back in Black
+  </div>
+  <div
+    key="42"
+  >
+    Highway to Hell
+  </div>
+  <button>
+    Fetch more photos
+  </button>
+</div>
+`;
