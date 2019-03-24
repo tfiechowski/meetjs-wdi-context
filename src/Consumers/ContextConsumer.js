@@ -5,8 +5,8 @@ import { ContextConsumer } from "../contexts";
 export default function PhotoListContextConsumer() {
   return (
     <ContextConsumer>
-      {({ photos: { photos, fetchPhotos } }) => (
-        <PhotosList photos={photos} fetchPhotos={fetchPhotos} />
+      {({ photos: { photos, fetchPhotos }, theme: { theme } }) => (
+        <PhotosList photos={photos} fetchPhotos={fetchPhotos} theme={theme} />
       )}
     </ContextConsumer>
   );
