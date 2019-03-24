@@ -13,4 +13,4 @@ You can checkout the project at different commits to have a step-by-step experie
 - Added `fetchPhotos` method to modify the state: [9c5805b4a4724b6fb41fa4d48ca2ce0c4aa6baa7](https://github.com/tfiechowski/meetjs-wdi-context/tree/9c5805b4a4724b6fb41fa4d48ca2ce0c4aa6baa7)
 - Added new `ThemeContext`, mounting it without any helpers in `src/index.js`: [12837faa7caa09fdaf8aaf75e6ea1405e3f3ce14](https://github.com/tfiechowski/meetjs-wdi-context/tree/12837faa7caa09fdaf8aaf75e6ea1405e3f3ce14)
 - Add `CombinedConsumer` helper component [98a0f7f51b749786ff28b9524c1d9d87930a99ac](https://github.com/tfiechowski/meetjs-wdi-context/tree/98a0f7f51b749786ff28b9524c1d9d87930a99ac)
-- Use combined contexts [9c970530706b7102bf552776c08a99b2bf5611af](https://github.com/tfiechowski/meetjs-wdi-context/tree/9c970530706b7102bf552776c08a9
+- Use combined contexts [d83865dac04cb083500b303b88d06262a401a977](https://github.com/tfiechowski/meetjs-wdi-context/tree/d83865dac04cb083500b303b88d06262a401a977)
