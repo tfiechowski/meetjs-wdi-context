@@ -14,3 +14,4 @@ You can checkout the project at different commits to have a step-by-step experie
 - Added new `ThemeContext`, mounting it without any helpers in `src/index.js`: [12837faa7caa09fdaf8aaf75e6ea1405e3f3ce14](https://github.com/tfiechowski/meetjs-wdi-context/tree/12837faa7caa09fdaf8aaf75e6ea1405e3f3ce14)
 - Add `CombinedConsumer` helper component [98a0f7f51b749786ff28b9524c1d9d87930a99ac](https://github.com/tfiechowski/meetjs-wdi-context/tree/98a0f7f51b749786ff28b9524c1d9d87930a99ac)
 - Use combined contexts [d83865dac04cb083500b303b88d06262a401a977](https://github.com/tfiechowski/meetjs-wdi-context/tree/d83865dac04cb083500b303b88d06262a401a977)
+- Make `PhotosContext` use `InnerComponent` pattern [57362cdf5f3b43e762b83fde6b4aa0548eecae62](https://github.com/tfiechowski/meetjs-wdi-context/tree/57362cdf5f3b43e762b83fde6b4aa0548eecae62)
