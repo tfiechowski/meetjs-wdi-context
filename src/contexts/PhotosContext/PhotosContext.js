@@ -1,5 +1,5 @@
-
 import React, { Component, createContext } from "react";
+import api from "./api";
 
 const Context = createContext({});
 
@@ -9,6 +9,7 @@ export class PhotosProvider extends Component {
 
     this.state = {
       photos: [],
+      fetchPhotos: this.fetchPhotos
     };
   }
 
@@ -19,7 +20,11 @@ export class PhotosProvider extends Component {
       </Context.Provider>
     );
   }
+
+  fetchPhotos = async () => {
+    const photos = await api.fetchPhotos();
+    this.setState(state => ({ photos: [state.photos, ...photos] }));
+  };
 }
 
 export default Context;
-
